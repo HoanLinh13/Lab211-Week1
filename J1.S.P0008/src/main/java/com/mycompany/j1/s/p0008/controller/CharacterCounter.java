@@ -1,6 +1,6 @@
-package com.mycompany.j1.s.p0008.model;
+package com.mycompany.j1.s.p0008.controller;
 
-import com.mycompany.j1.s.p0008.controller.DataCounter;
+import com.mycompany.j1.s.p0008.model.DataCounter;
 import java.util.HashMap;
 import java.util.Map;
 

@@ -4,8 +4,7 @@
  */
 package com.mycompany.j1.s.p0008.view;
 
-import com.mycompany.j1.s.p0008.model.CharacterCounter;
-import com.mycompany.j1.s.p0008.model.WordCounter;
+import com.mycompany.j1.s.p0008.controller.*;
 import java.util.Map;
 import java.util.Scanner;
 
