@@ -6,8 +6,8 @@ import com.mycompany.j1.s.p0011.model.BaseConverter;
 import java.util.Scanner;
 
 public class UserInterface {
-    private final Scanner scanner = new Scanner(System.in);
-    private final BaseConverter converter = new UnifiedConverter();
+    private  Scanner scanner = new Scanner(System.in);
+    private BaseConverter converter = new UnifiedConverter();
 
     public void start() {
         System.out.println("Welcome to the Base Conversion Program!");

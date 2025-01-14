@@ -6,10 +6,10 @@ public class UnifiedConverter implements BaseConverter {
 
     public String convert(int inputBase, int outputBase, String inputValue) {
         try {
-            // Phân tích đầu vào thành số thập phân dựa trên cơ sở đầu vào
+            // Phân tích đầu vào thành số thập phân
             int decimalValue = Integer.parseInt(inputValue, getBase(inputBase));
 
-            // Chuyển đổi số thập phân thành cơ sở đầu ra mong muốn
+            // Chuyển đổi số thập phân thành đầu ra mong muốn
             switch (outputBase) {
                 case 1:
                     return Integer.toBinaryString(decimalValue);
