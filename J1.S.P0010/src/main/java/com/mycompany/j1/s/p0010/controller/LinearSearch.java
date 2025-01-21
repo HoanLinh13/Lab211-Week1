@@ -11,7 +11,8 @@ public class LinearSearch implements DataOperation {
 
     public LinearSearch(int size) {
         this.size = size;
-        this.array = generateRandomArray();  // Tạo mảng ngẫu nhiên khi khởi tạo
+        this.array = new int[size];
+        generateRandomArray();  // Tạo mảng ngẫu nhiên khi khởi tạo
     }
 
     public int[] getArray() {
@@ -27,7 +28,7 @@ public class LinearSearch implements DataOperation {
     private int[] generateRandomArray() {
         Random rand = new Random();
         for (int i = 0; i < size; i++) {
-            this.array[i] = rand.nextInt(100) - 50; //  Giới hạn từ -50 đến 50
+            this.array[i] = rand.nextInt(array.length); //  Giới hạn từ -50 đến 50
         }
 
         return array;
